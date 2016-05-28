@@ -1,1 +1,38 @@
+mainDir <- "./"
+subDir <- "Beethoven"
+
+if (file.exists(subDir)){
+  setwd(file.path(mainDir, subDir))
+} else {
+  dir.create(file.path(mainDir, subDir))
+  setwd(file.path(mainDir, subDir))
+}
+download.file("http://www.piano-midi.de/midis/beethoven/beethoven_opus10_1_format0.mid", destfile = "b1")
+download.file("http://www.piano-midi.de/midis/beethoven/beethoven_opus10_2_format0.mid", destfile = "b2")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
+download.file("")
 download.file("")
